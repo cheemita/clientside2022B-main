@@ -1,0 +1,31 @@
+extends template 
+
+block content
+    h1 this is a list 
+
+
+
+//- doctype html
+
+//- html
+//-     head
+//-         title My site - #{title}
+//-         block styles
+//-             link(rel='stylesheet', href='css/bootstrap.min.css')
+//-             //- link(rel='stylesheet', href='public/style.css')
+//-     body
+//-         block navb
+//-         nav.navbar.navbar-dark.bg-dark
+//-             div.container-fluid
+//-                 a.navbar-brand(href="#") Navbar
+//-                 ul 
+//-                     a(href="/users/userlist").btn.btn-light.btn-lg.px-2.me-sm-4 lista de usuarios
+//-                     a(href="/users/permissions").btn.btn-light.btn-lg.px-2.me-sm-4 Permisos
+//-                 li.nav-item.active
+//-                     a.nav-link(href='/users/userlist') Lista de usuarios
+//-                 li.nav-item.active
+//-                     a.nav-link(href='/users/permissions') Permisos
+//-         block content
+//-         block foot
+//-             #footer
+//-                 p some footer content
